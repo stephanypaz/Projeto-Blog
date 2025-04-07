@@ -1,8 +1,44 @@
-/* You can add global styles to this file, and also import other style files */
-*{
+body {
+    background-color: black;
+    color: white;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    background-color: #111111;
-    color: #ffffff;
-}
+  }
+  
+  .container__menu__titlle {
+    font-size: 4em;
+    font: 'segoe UI';
+    font-weight: bold;
+    background: linear-gradient(45deg,
+    /* cores do degradê: */
+    #372ba0, #504ef0, #8558e0, #a140f1, #863ae1, 
+    #f2604d, #ee5f2b, #f8962e,#fb7a5a, #f35c36);
+    background-size: 400% 400%; /* garante que o degradê seja maior que o testo*/
+    color: transparent; /* letras dos textos com degradê ficam transparentes */
+    background-clip: text; 
+    animation: gradiente 7s /* tempo de duração*/ ease infinite; /* define que nunca acabe */
+    text-align: center; /* alinhar no meio */
+    display: flex;
+    flex-direction: column; /* serve o h1 e h2 ficarem em coluna */
+  }
+  
+  @keyframes gradiente { /* controla o degradê */
+    0% {
+      background-position: 0% 15%;
+    }
+    15% {
+      background-position: 37% 51%;
+    }
+    30% {
+      background-position: 78% 100%;
+    }
+    50% {
+        background-position: 100% 78%;
+      }
+    85%{
+        background-position: 51% 37%;
+      }
+    100% {
+        background-position: 15% 0%;
+    }
+  }
