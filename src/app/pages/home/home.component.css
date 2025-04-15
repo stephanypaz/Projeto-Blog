@@ -1,11 +1,23 @@
 .container__articles {
     margin-top: 30px;
-    display: flex; /* Para as div's ficarem lado a lado */
+    display: flex; /* Para as div's fiarem lado a lado */
     gap: 50px;
+    flex-wrap: wrap; /* Quebrar para a próxima linha em telas menores */
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
 }
 
 .articles__others {
     text-align: center;
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
+    flex: 1 1 300px; /* Faz o componente se ajustar */
+}
+
+/* Responsividade para telas pequenas */
+@media (max-width: 768px) {
+    .container__articles {
+        gap: 20px;
+    }
 }
