@@ -4,10 +4,27 @@
     border-radius: 10px;
     width: 900px;
     height: 222px;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    padding: 20px;
 }
 
 .img_card-one {
+    flex-direction: row;
     margin-top: 25px;
-    margin-left: 47px;
+    margin-left: 20px;
     margin-right: 47px;
+    align-content: center;
+}
+
+.img_card-one > img {
+    border-radius: 10px;
+}
+
+.teste_card-one {
+    margin-top: 25px;
+    margin-right: 10px;
+    text-align: center;
+    align-content: center;
 }

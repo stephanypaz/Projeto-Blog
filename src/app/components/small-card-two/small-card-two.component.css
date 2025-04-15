@@ -1,13 +1,30 @@
-.container__small-card-three {
+.container__small-card-two {
     margin-top: 15px;
     border: solid #fff 2px;
     border-radius: 10px;
     width: 900px;
     height: 222px;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    padding: 20px;
 }
 
 .img_card-two {
+    flex-direction: row;
     margin-top: 25px;
-    margin-left: 47px;
+    margin-left: 20px;
     margin-right: 47px;
+    align-content: center;
+}
+
+.img_card-two > img {
+    border-radius: 10px;
+}
+
+.teste_card-two {
+    margin-top: 25px;
+    margin-right: 10px;
+    text-align: center;
+    align-content: center;
 }

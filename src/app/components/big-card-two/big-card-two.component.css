@@ -1,14 +1,15 @@
 .container__big-card{
     margin-top: 15px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
     border: solid #fff 2px;
     width: 600px;
     height: 700px;
     color: #fff;
-
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    text-align: center;
 }
 
 .big-card__photo{
@@ -32,10 +33,9 @@
 
 .big-card__description {
     margin-top: 0px;
-    margin-left: 25px;
+    margin-left: 48px;
     margin-right: 25px;
     font-style: italic;
     color: #dddddd;
     text-align: left;
-    margin-left: 48px;
 }
