@@ -1,0 +1,11 @@
+.container__articles {
+    margin-top: 30px;
+    display: flex; /* Para as div's ficarem lado a lado */
+    gap: 50px;
+}
+
+.articles__others {
+    text-align: center;
+    display: flex;
+    flex-direction: column; 
+}

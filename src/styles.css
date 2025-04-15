@@ -16,7 +16,8 @@ body {
     background-size: 400% 400%; /* garante que o degradê seja maior que o testo*/
     color: transparent; /* letras dos textos com degradê ficam transparentes */
     background-clip: text; 
-    animation: gradiente 7s /* tempo de duração*/ ease infinite; /* define que nunca acabe */
+    animation: gradiente 10s /* tempo de duração*/ 
+    ease infinite; /* define que nunca acabe */
     text-align: center; /* alinhar no meio */
     display: flex;
     flex-direction: column; /* serve o h1 e h2 ficarem em coluna */
