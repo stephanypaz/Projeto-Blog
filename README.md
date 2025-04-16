@@ -3,7 +3,7 @@
 ## 📋 **Descrição do Projeto**
 **Ster Blog** é uma aplicação web moderna e dinâmica, construída com **Angular**, dedicada a todos os apaixonados por **desenhos** e **arte**! 🌟🎨
 
-Aqui, você encontrará desenhos, dicas e curiosidades sobre o mundo dos desenhos, inspirações criativas e muito mais. O objetivo do blog é **conectar** artistas e amantes da arte, proporcionando um espaço interativo e inspirador para explorar o universo dos desenhos.
+Aqui, você encontrará desenhos autorais meus, com suas descrições. O objetivo do blog é **conectar** amantes da arte, proporcionando um espaço inspirador no universo dos desenhos.
 
 Se você é um amante de arte ou está começando a se aventurar no mundo do desenho, esse é o lugar certo para você! ✏️❤️
 
@@ -31,4 +31,4 @@ Para começar, clone o repositório do **Ster Blog** para a sua máquina local:
 git clone https://github.com/stephanypaz/Projeto-Blog
 cd Projeto-Blog
 ```
-# Vamos desenhar juntos! 🌟👩‍🎨👨‍🎨
+# Vamos desenhar! 🌟👩‍🎨👨‍🎨
