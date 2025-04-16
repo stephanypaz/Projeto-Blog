@@ -1,9 +1,11 @@
 .container__small-card-two {
     margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
     border: solid #fff 2px;
     border-radius: 10px;
     width: 900px;
-    height: 222px;
+    height: 300px;
     display: flex;
     flex-direction: row;
     text-align: left;
@@ -25,6 +27,8 @@
 .teste_card-two {
     margin-top: 25px;
     margin-right: 10px;
-    text-align: center;
+    text-align: left;
     align-content: center;
+    font-style: italic;
+    font-size: 27px;
 }
